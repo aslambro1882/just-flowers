@@ -1,0 +1,262 @@
+/* color pallet----------------------- */
+.color-1 {
+  background-color: #e554733f;
+}
+
+.color-2 {
+  background-color: #a7216256;
+}
+.color-3 {
+  background-color: #0598a049;
+}
+.color-4 {
+  background-color: #477d113f;
+}
+
+.text-color-1 {
+  color: #272727;
+}
+.text-color-2 {
+  color: #272727;
+}
+.text-color-3 {
+  color: #ffffff;
+}
+
+/* color pallet----------------------- */
+
+/* --------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.banner {
+  /* border: 1px solid black; */
+  height: 80vh;
+  display: flex;
+}
+.banner-text {
+  width: 50%;
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-text > div {
+  width: 70%;
+}
+.banner-text h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.banner-text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.banner-text button {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  border: none;
+}
+.banner-img {
+  width: 50%;
+  /* border: 1px solid tomato; */
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.banner-img > figure {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-img img {
+  width: 90%;
+}
+/* ------------------------------------------ */
+.feature {
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.feature > header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.feature > header h1 {
+  font-size: 55px;
+}
+.feature > header p {
+  font-size: 18px;
+}
+
+.feature-imgs-container {
+  display: flex;
+  justify-content: center;
+}
+
+.feature-img {
+  /* padding: 40px; */
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  /* width: 22%; */
+  /* align-items: spa; */
+}
+.feature-img div {
+  height: 500px;
+  padding: 40px 40px 0px 40px;
+  border-top-left-radius: 500px;
+  border-top-right-radius: 500px;
+  width: 320px;
+}
+.go-bottom {
+  display: flex;
+  align-items: end;
+}
+.go-center {
+  display: flex;
+  align-items: center;
+}
+
+.feature-img a {
+  color: #272727;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.feature-img img {
+  /* height: 500px; */
+  vertical-align: top;
+}
+.feature footer {
+  width: 80%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.feature footer section {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  font-size: 22px;
+}
+
+/* ---------------------------------- */
+.hot-deal {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px;
+  /* line-height: 50px; */
+}
+.hot-deal section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hot-deal section h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.hot-deal section p {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.hot-deal section button {
+  font-size: 22px;
+  width: 200px;
+  height: 50px;
+}
+
+/* ------------------------------ */
+
+.top-sold {
+  width: 80%;
+  margin: 200px auto;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.top-sold header h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.top-sold header p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.top-sold main {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.top-sold main img {
+  width: 90%;
+  /* border: 2px solid black; */
+}
+
+.top-sold footer {
+  background-image: url("/assets/Rectangle\ 9.png");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-sold footer div h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.top-sold footer div p {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.top-sold footer div section {
+  height: 50px;
+}
+.top-sold footer input {
+  width: 600px;
+  height: 100%;
+  border: none;
+  margin-right: 10px;
+  border-radius: 10px;
+  padding-left: 20px;
+  font-size: 15px;
+  /* vertical-align: top; */
+}
+.top-sold footer button {
+  width: 200px;
+  height: 100%;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  /* border: none; */
+}
+.top-sold footer section {
+}
