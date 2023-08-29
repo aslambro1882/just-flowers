@@ -28,6 +28,9 @@
 .text-color-4 {
   color: #813030;
 }
+.text-color-5 {
+  color: rgba(255, 255, 255, 0.427);
+}
 /* color pallet----------------------- */
 /* --------------------------------------- */
 /* Basic styles------------------------------ */
@@ -67,12 +70,12 @@ input:focus {
 
 h1 {
   color: rgb(42, 38, 38);
-  font-size: 55px;
+  font-size: 50px;
   margin-bottom: 20px;
 }
 p {
   color: #2727277a;
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 20px;
 }
 a {
